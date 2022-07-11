@@ -1,0 +1,30 @@
+.new-way {
+    padding-top: 290px;
+    padding-bottom: 290px;
+}
+
+.new-way > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.new-way__text-wrapper__h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.new-way__text-wrapper__p {
+    color: rgba(125, 121, 135, 1);
+    line-height: 1.5;
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.new-way__text-wrapper__button{
+    font-weight: 600;
+}
