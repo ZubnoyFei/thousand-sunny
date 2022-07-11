@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=egde">
+    <title></title>
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/general.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <img src="src/img/logo.png" alt="A logo of the website">
+        <nav class="header__navigation">
+            <ul class="header__navigation__ul">
+                <li class="header__navigation__li"><a href="#" class="header__navigation__li">Home</a></li>
+                <li class="header__navigation__li"><a href="#" class="header__navigation__li">Destinations</a></li>
+                <li class="header__navigation__li"><a href="#" class="header__navigation__li"></a>About</li>
+                <li class="header__navigation__li"><a href="#" class="header__navigation__li">Partner</a></li>
+            </ul>
+        </nav>
+        <button class="header__login-button">Login</button>
+        <button class="header__register-button">Register</button>
+    </div>
+</header>
+<section class="hero">
+    <div class="container">
+        <div class="hero-text__wrapper">
+            <h1 class="hero-text__wrapper-h1">Explore and Travel</h1>
+            <h2 class="hero-text__wrapper-h2">Holiday filter</h2>
+            <div class="hero-text__wrapper-input">
+                <label for="location">
+                    <select name="location" id="location">
+                        <option value="Location">Location</option>
+                    </select></label>
+                <label for="grade">
+                    <select name="grade" id="grade">
+                        <option value="grade">Grade</option>
+                    </select>
+                </label>
+                <label for="activity">
+                    <select name="activity" id="activity">
+                        <option value="activity">Activity</option>
+                    </select>
+                </label>
+                <label for="date">
+                    <select name="date" id="date">
+                        <option value="date">Date</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        <img src="src/img/hero-image.png" alt="A boy traveler">
+    </div>
+</section>
+<section class="new-way">
+    <div class="container">
+        <img src="src/img/new-way-section.png" alt="A boy with an aero-stat">
+        <div class="new-way__text-wrapper">
+            <h2 class="new-way__text-wrapper__h2">
+                A new way to explore the world
+            </h2>
+            <p class="new-way__text-wrapper__p">
+                For decades travellers have reached for Lonely Planet books when looking to plan and execute their
+                perfect
+                trip, but now, they can also let Lonely Planet Experiences lead the way
+            </p>
+            <button class="new-way__text-wrapper__button">Learn more</button>
+        </div>
+    </div>
+</section>
+<section class="featured-destinations">
+    <div class="container">
+        <div class="featured-destinations__text-wrapper">
+            <h2 class="featured-destinations__h2">Featured destinations</h2>
+            <a href="#" class="featured-destinations__href"> View all <img src="src/img/featured-destinations-arrow.png" alt="menu arrow"></a>
+        </div>
+        <ul class="featured-destinations__ul">
+            <li class="featured-destinations--li">
+                <img src="src/img/raja.png" alt="A photo of a lagoon">
+                <p class="featured-destinations--li__city">Raja Ampat</p>
+                <p class="featured-destinations--li__country">Indonesia</p>
+            </li>
+            <li class="featured-destinations--li">
+                <img src="src/img/fanjingshan.png" alt="A photo of a rock">
+                <p class="featured-destinations--li__city">Fanjingshan</p>
+                <p class="featured-destinations--li__country">China</p>
+            </li>
+            <li class="featured-destinations--li">
+                <img src="src/img/vevey.png" alt="A photo of a village">
+                <p class="featured-destinations--li__city">Vevey</p>
+                <p class="featured-destinations--li__country">Switzerland</p>
+            </li>
+            <li class="featured-destinations--li">
+                <img src="src/img/skadar.png" alt="A photo of the Skadar lake">
+                <p class="featured-destinations--li__city">Skadar</p>
+                <p class="featured-destinations--li__country">Montenegro</p>
+            </li>
+        </ul>
+    </div>
+</section>
+</body>
