@@ -1,0 +1,56 @@
+.header {
+    padding-top: 45px;
+    padding-bottom: 80px;
+}
+
+.header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navigation ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.header__nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+
+.header__login-button {
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    color: #FB8F1D;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.header__register-button {
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    background-color: #FB8F1D;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.header__nav-wrapper__button {
+    display: flex;
+    gap: 20px;
+}
