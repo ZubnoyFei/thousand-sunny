@@ -2,6 +2,10 @@
 @import "../src/styles/hero.css";
 @import "../src/styles/button.css";
 @import "../src/styles/new-way.css";
+@import "../src/styles/featured-destinations.css";
+@import "../src/styles/guides.css";
+
+
 
 @font-face {
     font-family: Mulish;
