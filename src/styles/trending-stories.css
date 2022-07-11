@@ -1,0 +1,61 @@
+.trending-stories {
+    padding-top: 90px;
+    padding-bottom: 270px;
+}
+
+.trending-stories__text-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-stories__text-wrapper__h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.trending-stories__ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-stories__li {
+    width: 270px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.trending-stories__li--img {
+    width: 100%;
+    height: 240px;
+}
+
+.trending-stories__li__text-wrapper {
+    padding: 10px;
+}
+
+.trending-stories__li__text-wrapper__h3 {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.trending-stories__li__text-wrapper__p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    color:rgba(125, 121, 135, 1);
+    margin-bottom: 20px;
+}
+
+.trending-stories__li__text-wrapper--href {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: rgba(251, 143, 29, 1);
+}

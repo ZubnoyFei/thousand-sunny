@@ -1,0 +1,51 @@
+.testimonials {
+    padding-top: 250px;
+    padding-bottom: 90px;
+}
+
+.testimonials-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.testimonials-text__h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top: 30px;
+
+}
+.testimonials-wrapper__text{
+    width: 450px;
+}
+
+.testimonials__text__stars {
+    margin-bottom: 30px;
+}
+
+.testimonials-text__p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.testimonials-text__edward {
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.testimonials-text__founder {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.testimonials-wrapper__img {
+    overflow: hidden;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+}

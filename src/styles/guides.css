@@ -1,4 +1,26 @@
 .guides {
     padding-top: 115px;
-    padding-bottom: 125px;
+    padding-bottom: 65px;
+
+}
+
+.guides > div {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.guides-text__h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.guides-text__p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.8;
+    color :rgba(125, 121, 135, 1);
+    margin-bottom: 40px;
 }
