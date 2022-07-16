@@ -10,14 +10,14 @@
     align-items: center;
 }
 
-.guides-text__h2 {
+.guides-text__heading {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.4;
     margin-bottom: 20px;
 }
 
-.guides-text__p {
+.guides-text__paragraph{
     font-size: 17px;
     font-weight: 300;
     line-height: 1.8;

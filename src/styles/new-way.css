@@ -10,14 +10,14 @@
     gap: 100px;
 }
 
-.new-way__text-wrapper__h2 {
+.new-way__text-wrapper__heading {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.4;
     margin-bottom: 20px;
 }
 
-.new-way__text-wrapper__p {
+.new-way__text-wrapper__text{
     color: rgba(125, 121, 135, 1);
     line-height: 1.5;
     font-size: 17px;

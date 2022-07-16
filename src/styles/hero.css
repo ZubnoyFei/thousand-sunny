@@ -11,14 +11,14 @@
 .hero-text__wrapper {
     padding-top: 30px;
 }
-.hero-text__wrapper-h1 {
+.hero-text__wrapper-heading {
     font-weight: 700;
     font-size: 64px;
     line-height: 1.25;
     margin-bottom: 75px;
 }
 
-.hero-text__wrapper-h2 {
+.hero-text__wrapper-subheading {
     font-size: 22px;
     font-weight: 600;
     line-height: 1.2;
