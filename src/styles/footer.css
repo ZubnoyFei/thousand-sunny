@@ -14,15 +14,16 @@
     width: 400px;
 }
 
-.footer__navmenu{
+.footer__navmenu {
     display: flex;
     justify-content: space-between;
     gap: 130px;
 }
 
-.footer__item{
+.footer__unordered-list {
     display: flex;
     flex-direction: column;
+    gap: 25px;
 }
 
 .footer__legal-icon {
@@ -42,7 +43,7 @@
     font-weight: 300;
     line-height: 1.5;
     color: rgba(132, 132, 132, 1);
-    margin-bottom: 80px;
+
 }
 
 .footer__subheading {
@@ -54,11 +55,14 @@
 
 .footer__link {
     font-size: 18px;
-    line-height: 2.1;
+    line-height: 1.5;
     color: rgba(132, 132, 132, 1);
 }
 
 .footer__social-media {
-display: flex;
-    justify-content: center;
+    margin-top: 80px;
+    display: flex;
+justify-content: center;
+    align-items: center;
+    gap: 35px;
 }

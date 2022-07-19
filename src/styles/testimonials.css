@@ -1,5 +1,5 @@
 .testimonials {
-    padding-top: 250px;
+    padding-top: 125px;
     padding-bottom: 90px;
 }
 
@@ -14,8 +14,7 @@
     font-size: 36px;
     font-weight: 700;
     line-height: 1.4;
-    margin-top: 30px;
-
+margin-bottom: 50px;
 }
 .testimonials-wrapper__text{
     width: 450px;

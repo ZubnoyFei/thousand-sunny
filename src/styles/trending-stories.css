@@ -1,18 +1,20 @@
 .trending-stories {
-    padding-top: 90px;
+    padding-top: 200px;
     padding-bottom: 270px;
 }
 
 .trending-stories__text-wrapper {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
 }
 
 .trending-stories__heading {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.4;
-    margin-bottom: 30px;
+
 }
 
 .trending-stories__list {
